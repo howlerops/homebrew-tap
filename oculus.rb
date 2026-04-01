@@ -1,28 +1,28 @@
 class Oculus < Formula
   desc "Go-native AI coding CLI with multi-model lens architecture"
   homepage "https://github.com/howlerops/oculus"
-  version "0.5.4"
+  version "0.5.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/howlerops/oculus/releases/download/v0.5.4/oculus_0.5.4_darwin_arm64.tar.gz"
-      sha256 "78b3dab0d947e74834cc4e3ecd4f4d731abd820b2f8ae683553e60d4543d09ee"
+      url "https://github.com/howlerops/oculus/releases/download/v0.5.5/oculus_0.5.5_darwin_arm64.tar.gz"
+      sha256 "f3c3f7cd17602089ad6afacb374501d047e915ff881d052d88cea5bdcdfdf297"
     end
     on_intel do
-      url "https://github.com/howlerops/oculus/releases/download/v0.5.4/oculus_0.5.4_darwin_amd64.tar.gz"
-      sha256 "92c47da9b124e067471a60d71965296c909691ba2cbda77c3511eb476f03d671"
+      url "https://github.com/howlerops/oculus/releases/download/v0.5.5/oculus_0.5.5_darwin_amd64.tar.gz"
+      sha256 "6f6372789962299b359f8e0e573c034498fbf334001efa825b17ab691ca2c4ef"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/howlerops/oculus/releases/download/v0.5.4/oculus_0.5.4_linux_arm64.tar.gz"
-      sha256 "bd81b373d4563c52bc57ba565fc2cf4d742e33c6dab818c01e79da0bc3a77c97"
+      url "https://github.com/howlerops/oculus/releases/download/v0.5.5/oculus_0.5.5_linux_arm64.tar.gz"
+      sha256 "77deae356620a3be41dcce4463a6a0c6bc3f609ea30d1bf074e644e6dc378bc3"
     end
     on_intel do
-      url "https://github.com/howlerops/oculus/releases/download/v0.5.4/oculus_0.5.4_linux_amd64.tar.gz"
-      sha256 "5e6c3dbb1eadd849a5084ecf361756c3b34db29b53a07ab16ede9913ee579407"
+      url "https://github.com/howlerops/oculus/releases/download/v0.5.5/oculus_0.5.5_linux_amd64.tar.gz"
+      sha256 "298dfb35980abf60330c0bda2d9ce4e8d827a3aa68fda5aa4e1b3b745c96838c"
     end
   end
 
