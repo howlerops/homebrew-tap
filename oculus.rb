@@ -1,8 +1,8 @@
 class Oculus < Formula
   desc "Go-native AI coding CLI with multi-model lens architecture"
   homepage "https://github.com/howlerops/oculus"
-  license "MIT"
   version "0.4.0"
+  license "MIT"
 
   on_macos do
     on_arm do
