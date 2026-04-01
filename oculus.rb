@@ -7,22 +7,22 @@ class Oculus < Formula
   on_macos do
     on_arm do
       url "https://github.com/howlerops/oculus/releases/download/v0.4.0/oculus_0.4.0_darwin_arm64.tar.gz"
-      sha256 "49bae0ed37404bee0705d09983366c57ebe269ec126dbce76dc535c4295fcdf7"
+      sha256 "2d6519ff6810d3e2f908f0662948ce1da68bed11c103b8e066bf48260dd7cd59"
     end
     on_intel do
       url "https://github.com/howlerops/oculus/releases/download/v0.4.0/oculus_0.4.0_darwin_amd64.tar.gz"
-      sha256 "43f20e978714120162c66adc7941b4ad729f43a3c3e6f7e214ae597517396038"
+      sha256 "84bc7aebbf9496e51c74cdede88ebbfaa689970e77409780abc8c31c940dadbc"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/howlerops/oculus/releases/download/v0.4.0/oculus_0.4.0_linux_arm64.tar.gz"
-      sha256 "5e382dd7cd7ae7492fbe1813ac83f4ef1159abf07fff7c578df738562d6077c0"
+      sha256 "c4406adfd67723ec5c38527e5148ee25209a60273cf47388c79dde66b5cd95ed"
     end
     on_intel do
       url "https://github.com/howlerops/oculus/releases/download/v0.4.0/oculus_0.4.0_linux_amd64.tar.gz"
-      sha256 "7c890f9d1f717dfa528053d145cbc2eb9d5ba0d40b00af5b7f4a7548bec99a0b"
+      sha256 "c63b8db17e9ab10c8ac92b0bb83232d6eb343fdc3d0deea7da002c7e85f1cacb"
     end
   end
 
