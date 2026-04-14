@@ -5,21 +5,21 @@
 class Oculus < Formula
   desc "Go-native AI coding CLI with multi-model lens architecture"
   homepage "https://github.com/howlerops/oculus"
-  version "0.10.4"
+  version "0.10.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/howlerops/oculus/releases/download/v0.10.4/oculus_0.10.4_darwin_amd64.tar.gz"
-      sha256 "219d05c2526c9174fdedbef024b98a3470335bd8de07d5a13708168d6e7ecfab"
+      url "https://github.com/howlerops/oculus/releases/download/v0.10.5/oculus_0.10.5_darwin_amd64.tar.gz"
+      sha256 "b25493b5004b6dccb5c2ac659604b00d650060c5fab80ea14d924cffba6300e2"
 
       define_method(:install) do
         bin.install "oculus"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/howlerops/oculus/releases/download/v0.10.4/oculus_0.10.4_darwin_arm64.tar.gz"
-      sha256 "6a3572bdaff8d54ddfacf218f3d9955241eeae80e28707c2f67e153ec7c7e05a"
+      url "https://github.com/howlerops/oculus/releases/download/v0.10.5/oculus_0.10.5_darwin_arm64.tar.gz"
+      sha256 "0c0ea03cb9dd682d6e813895558c69722e2855b1553f1ec3e4176cc66017bc17"
 
       define_method(:install) do
         bin.install "oculus"
@@ -29,15 +29,15 @@ class Oculus < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/howlerops/oculus/releases/download/v0.10.4/oculus_0.10.4_linux_amd64.tar.gz"
-      sha256 "5a82f25773749778b6515f01f3b77644933940c74fc01b3d4824656502f5c074"
+      url "https://github.com/howlerops/oculus/releases/download/v0.10.5/oculus_0.10.5_linux_amd64.tar.gz"
+      sha256 "7741d2aaef017b031337a9af754cde79e63a6c6bbd544192f7441db092e59226"
       define_method(:install) do
         bin.install "oculus"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/howlerops/oculus/releases/download/v0.10.4/oculus_0.10.4_linux_arm64.tar.gz"
-      sha256 "b168648b1eb5505ac6c0dbe4795ee1fedcdf8e09f41e7cfc55e5c643db191599"
+      url "https://github.com/howlerops/oculus/releases/download/v0.10.5/oculus_0.10.5_linux_arm64.tar.gz"
+      sha256 "f74270b21149b2aa4c8f2520b399fe06d1ebfdfd5b336fb4ded2b624cc3cb054"
       define_method(:install) do
         bin.install "oculus"
       end
